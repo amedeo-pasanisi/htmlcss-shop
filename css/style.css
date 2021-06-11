@@ -41,7 +41,6 @@
 
 .immagine img{
     width: 220px;
-    object-fit
 }
 /* fine spazio immagine*/
 
@@ -69,4 +68,29 @@
 
 .sconto{
     text-decoration: line-through;
+}
+/*fine spazio testo*/
+
+/* creazione e posizionamento dei tag */
+.tag{
+    color: white;
+
+    line-height: 30px;
+    text-align: center;
+}
+
+.rosso{
+    width: 50px;
+    background-color: rgb(238, 71, 71);
+}
+
+.verde{
+    width: 100px;
+    background-color: rgb(31, 107, 31);
+}
+
+.cuore{
+    width: 30px;
+    color: black;
+    background-color: white;
 }
