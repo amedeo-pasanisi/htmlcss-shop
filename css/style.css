@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
+/* spazio righe */
 .riga{
     height: 340px;
-    width: 610px;
+    width: 580px;
     margin: 15px auto;
 }
 
@@ -17,10 +18,27 @@
 .riga.sotto{
     background-color: green;
 }
+/* fine spazio righe */
 
+/* spazio prodotto */
 .prodotto{
     display: inline-block;
     height: 340px;
-    width: 200px;
     background-color: blue;
 }
+/* fine spazio prodotto */
+
+.prodotto,.immagine,.testo{
+    width: 190px;
+}
+/* spazio immagine e testo */
+.immagine{
+    height: 280px;
+    background-color: yellow;
+}
+
+.testo{
+    height:60px;
+    background-color: violet;
+}
+/* fine spazio immagine e testo */
