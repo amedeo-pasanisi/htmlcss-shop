@@ -37,6 +37,7 @@
 /* spazio immagine*/
 .immagine{
     background-color: yellow;
+    position: relative;
 }
 
 .immagine img{
@@ -75,6 +76,7 @@
 .tag{
     color: white;
 
+    position: absolute;
     line-height: 30px;
     text-align: center;
 }
@@ -82,15 +84,23 @@
 .rosso{
     width: 50px;
     background-color: rgb(238, 71, 71);
+
+    bottom: 20px;
 }
 
 .verde{
     width: 100px;
     background-color: rgb(31, 107, 31);
+
+    bottom: 20px;
 }
 
 .cuore{
     width: 30px;
+    font-size: 20px;
     color: black;
     background-color: white;
+
+    top: 30px;
+    right: 0;
 }
