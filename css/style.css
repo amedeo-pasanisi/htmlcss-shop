@@ -6,8 +6,7 @@
 
 /* spazio righe */
 .riga{
-    height: 340px;
-    width: 580px;
+    width: 670px;
     margin: 15px auto;
 }
 
@@ -20,25 +19,54 @@
 }
 /* fine spazio righe */
 
+.prodotto,.immagine,.testo{
+    width: 220px;
+}
+
 /* spazio prodotto */
 .prodotto{
     display: inline-block;
-    height: 340px;
     background-color: blue;
 }
 /* fine spazio prodotto */
 
 .prodotto,.immagine,.testo{
-    width: 190px;
+    width: 220px;
 }
-/* spazio immagine e testo */
+
+/* spazio immagine*/
 .immagine{
-    height: 280px;
     background-color: yellow;
 }
 
+.immagine img{
+    width: 220px;
+    object-fit
+}
+/* fine spazio immagine*/
+
+/* spazio testo*/
 .testo{
-    height:60px;
     background-color: violet;
 }
-/* fine spazio immagine e testo */
+
+.marca{
+    font-size: 12px;
+}
+
+.nome{
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+.prezzo,.sconto{
+    display: inline-block;
+}
+
+.prezzo{
+    color: red;
+}
+
+.sconto{
+    text-decoration: line-through;
+}
